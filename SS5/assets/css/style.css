@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+body {
+    padding: 0 100px;
+    width: 100vw;
+}
+
+header {
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    font-weight: 700;
+    font-size: 25.888px;
+    line-height: 39px;
+} 
+
+.header-left > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-left > a:hover {
+    color: #736565;
+}
+
+.header-center {
+    flex: 1;
+    padding: 0 210px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.header-center > a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #404040;
+}
+
+.header-center > a:hover {
+    color: #FF7B29;
+}
+
+.button-search {
+    width: 186px;
+    height: 52px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+}
+
+.header-right > button {
+    background-color: #263FA4;
+}
+
+.header-right > button:hover {
+    background-color: #3a4fa5;
+}
+
+.button-search > span {
+    margin-left: 13.18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    height: 600px;
+    align-items: center;
+}
+
+.ban-info {
+    width: 560px;
+}
+
+.ban-big-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+}
+
+.title-black {
+    color: #1A1A1A;
+}
+
+.title-blue {
+    color: #263FA4;
+}
+
+.ban-info > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #132742;
+}
+
+.discover {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.discover > button {
+    padding: 14px 22px;
+    background-color: #FF7B29;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.discover > button:hover {
+    cursor: pointer;
+    background-color: #f99253;
+}
+
+.discover-img {
+    width: 48px;
+    height: 48px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    border-left: 10px solid #FF7B29;
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.discover-img > img {
+    margin: auto;
+}
+
+.discover > span {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FF7B29;
+}
+
+.discover > span:hover {
+    cursor: pointer;
+    color: #f99253;
+}
+
+.ban-img {
+    width: 500px;
+    height: 600px;
+}
+
+.time, .bird-1, .bird-2 {
+    display: flex;
+    align-items: center;
+}
+
+.bird-1, .bird-2 {
+    margin-top: 40px;
+}
+
+.ban-more-icon {
+    width: 44px;
+    height: 44px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    display: flex;
+    margin-right: 12px;
+}
+
+.ban-more-icon > img {
+    margin: auto;
+}
+
+.ban-more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ban-more-info > p:first-child {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #132742; 
+}
+
+.ban-more-info > p:last-child {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #132742;
+}
+
+.searching {
+    padding: 24px 106px;
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 21px 54px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    margin-top: 70px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searching h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #132742;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.check-box > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.check-box > img {
+    width: 9.5px;
+    height: 5.5px;
+    margin-left: 11.25px;
+}
+
+.searching button {
+    background-color: #FF7B29;
+}
+
+.added {
+    margin-top: 60px;
+}
+
+.added-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.added-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    color: #333333;
+}
+
+.next-previous {
+    display: flex;
+}
+
+.previous, .next {
+    width: 48px;
+    height: 48px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    display: flex;
+}
+
+.next-previous img {
+    margin: auto;
+}
+
+.previous {
+    background-color: #FFF;
+    margin-right: 24px;
+}
+
+.next {
+    background-color: #FF7B29;;
+}
+
+.added > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #404040;
+}
+
+.added-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 360px;
+    padding: 22px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.name-item {
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4C4C4C;
+}
+
+.flex-1 {
+    margin-top: 8px;
+}
+
+.flex-2 {
+    margin-top: 28px;
+}
+
+.flex-3 {
+    margin-top: 38px;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-1 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #4C4C4C;
+}
+
+.flex-2 > p {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #4C4C4C;
+}
+
+.flex-2 > button {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #263FA4;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #263FA4;;
+}
+
+.flex-3 > p:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.flex-3 > p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 178.5%;
+    color: #999999;
+}
